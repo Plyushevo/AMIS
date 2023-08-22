@@ -1,0 +1,24 @@
+table,
+th,
+td {
+  border: 1px solid;
+  text-align: center;
+  font-size: large;
+}
+table {
+  width: 50%;
+  margin: auto;
+}
+
+thead {
+  background-color: orange;
+}
+
+tbody {
+  background-color: #937e7e
+}
+
+tfoot {
+  background-color: rgb(112, 90, 132);
+  color: aliceblue;
+}
