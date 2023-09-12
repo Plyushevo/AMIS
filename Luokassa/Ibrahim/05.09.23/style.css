@@ -15,10 +15,17 @@ p {
 }
 
 div>p {
-  color:brown;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: large;
-  font-style: oblique;
+background-color:yellow;
+text-decoration: line-through;
+text-align: center;
+text-indent: 100px;
+text-transform: uppercase;
+letter-spacing: normal;
+word-spacing: normal;
+line-height: 1em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.6em;
+font-weight: bold;
 }
 
 a {
