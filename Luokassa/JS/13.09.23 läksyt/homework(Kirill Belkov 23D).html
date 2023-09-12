@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>JS Homework: DOM Manipulation, Loops, and Arrays</title>
+</head>
+<body>
+
+<h1>JavaScript Homework: DOM Manipulation, Loops, and Arrays</h1>
+
+<p><strong>Instructions:</strong> Read through each task carefully. Write the JavaScript code required to perform the task in the provided script tags. You can test your solutions by interacting with the page or checking your console (Ctrl+Shift+I in your browser).</p>
+
+<h2>Task 1: DOM Content Change</h2>
+<p>Use JavaScript to change the content of the paragraph below to "This content was changed using JavaScript!".</p>
+<p id="demo1">This is the original content.</p>
+<script>
+    // Your code for Task 1 goes here
+    document.getElementById('demo1').innerHTML = '"This content was changed using JavaScript!"';
+</script>
+
+<h2>Task 2: Style Manipulation</h2>
+<p>Use JavaScript to change the background color of the following paragraph to "lightblue".</p>
+<p id="demo2">Change my background color!</p>
+<script>
+    // Your code for Task 2 goes here
+    document.getElementById('demo2').style.backgroundColor = 'lightblue'
+</script>
+
+<h2>Task 3: Looping Through Arrays</h2>
+<p>Given the array of fruits, use a `for` loop to print each fruit to the console.</p>
+<script>
+    // Your code for Task 3 goes here
+    const fruits = ["apple", "banana", "cherry", "date", "fig"];
+    for (let i = 0; i < fruits.length; i++) {
+        console.log(fruits[i])
+    }
+</script>
+
+<h2>Task 4: `while` Loop Basics</h2>
+<p>Using a `while` loop, print numbers from 1 to 10. The numbers should be displayed in the console.</p>
+<script>
+    // Your code for Task 4 goes here
+    let i = 1
+    while (i <= 10) {
+        console.log(i);
+        i++;
+    };
+</script>
+<h2>Submission:</h2>
+<p>Once you have completed all the tasks, save this HTML file and submit it to me.</p>
+
+</body>
+</html>

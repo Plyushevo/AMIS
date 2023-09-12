@@ -1,0 +1,33 @@
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+th {
+  text-align: center;
+  background-color: yellow;
+  color: red;
+  font-size: 24px;
+}
+
+td {
+  background-color: rgb(66, 168, 208);
+  padding: 0 20px;
+}
+
+.chceck-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  height: 40px;
+}
+
+.bottom-buttons {
+  padding: 10px 40px;
+}

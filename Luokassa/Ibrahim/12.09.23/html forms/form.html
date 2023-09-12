@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Registration form</title>
+</head>
+<body>
+  <form action="#">
+    <table>
+      <tr>
+        <th colspan="2">Registration Form</th>
+      </tr>
+      <tr>
+        <td>Enter Name</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Enter Password</td>
+        <td><input type="password"></td>
+      </tr>
+      <tr>
+        <td>Enter Address</td>
+        <td><textarea id="w3review" name="w3review" rows="4" cols="20"></textarea></td>
+      </tr>
+      <tr>
+        <td>Select Game</td>
+        <td class="chceck-box">
+          <label for=""><input type="checkbox"> Hockey</label>
+          <label for=""><input type="checkbox"> Football</label>
+          <label for=""><input type="checkbox"> Badninton</label>
+          <label for=""><input type="checkbox"> Cricket</label>
+          <label for=""><input type="checkbox"> Vollryball</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <label for=""><input type="radio" name="gender" id="" checked> Male</label>
+          <label for=""><input type="radio" name="gender" id=""> Female</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Select your age</td>
+        <td>
+          <label for="select">
+            <select name="select" id="first">
+              <option value="">Select</option>
+              <option value="lapsi">under 18</option>
+              <option value="nuori">18-30</option>
+              <option value="aikuinen">over 30</option>
+            </select>
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td>Select Photo</td>
+        <td>
+          <label for=""><input type="file" name="" id="" checked></label>
+        </td>
+      </tr>
+      <tr>
+        <td class="buttons" colspan="2">
+          <button class="bottom-buttons" onclick="alert('CLICK!')">Click Me</button>
+          <label for=""><input class="bottom-buttons" type="reset"></label>
+          <label for=""><input class="bottom-buttons" type="submit"></label>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

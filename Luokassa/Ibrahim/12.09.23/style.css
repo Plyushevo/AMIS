@@ -1,0 +1,27 @@
+p {
+  color: green;
+}
+
+#Student {
+  color: yellow;
+}
+
+.School {
+  font-size: 20px;
+  color: red;
+}
+
+p,
+h1,
+span {
+  color: red;
+}
+
+div p {
+  background-color: yellow;
+}
+
+div > p {
+  font-size: 20px;
+  color: green;
+}
