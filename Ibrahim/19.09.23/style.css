@@ -48,3 +48,29 @@ aside {
 .container-2 {
   flex-direction: column;
 }
+/* navigation */
+
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.nav__link {
+  margin: 20px;
+}
+
+.nav__link:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: bisque;
+}
+
+.nav__link a {
+  text-decoration: none;
+  color: inherit;
+  font-family: Robotto;
+  font-size: 24px;
+}
