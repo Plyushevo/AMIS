@@ -42,20 +42,27 @@ aside {
 .container,
 .container-2 {
   display: flex;
-  flex-grow: 1;
+  flex-grow: 2;
+  
 }
+
 
 .container-2 {
   flex-direction: column;
 }
 /* navigation */
 
+nav {
+  justify-content: flex-end;
+  
+}
+
 .nav {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
-  
+  gap: 10px;
 }
 
 .nav__link {
@@ -68,9 +75,32 @@ aside {
   color: bisque;
 }
 
+.current {
+  transform: scale(1.1);
+  color: bisque;
+}
+
 .nav__link a {
   text-decoration: none;
   color: inherit;
   font-family: Robotto;
   font-size: 24px;
+  font-weight: 600;
+}
+
+.articles {
+  flex-direction: row;
+  gap: 10px;
+  max-height: 50vh;
+  flex-wrap: wrap;
+}
+
+.article_1 {
+  flex-grow: 2;
+  width: 75%;
+}
+
+.article_2 {
+  flex-grow: 1;
+  width: 25vh;
 }
