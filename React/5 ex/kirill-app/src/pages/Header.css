@@ -1,0 +1,24 @@
+
+
+.header {
+  background-color: black;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-list {
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+  margin: 0;
+}
+
+.header-list_item {
+  list-style: none;
+}
+
+.header_link {
+  color: white
+}

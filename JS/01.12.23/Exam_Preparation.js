@@ -90,10 +90,9 @@ const colors = ['white', 'blue', 'yellow', 'grey', 'green']
 // b) Create a for loop that iterates over the array.
 // and prints each color's name along with its position in the array (e.g., "1. Blue").
 
-for (const color of colors) {
-  let index = colors.indexOf(color) + 1 + '. '
-  console.log(index + color)
-}
+colors.forEach(function(color, index)  {
+  console.log(`${index}. ${color}`)
+})
 
 // 10
 // Compare null and undefined using == and ===.
